@@ -1,0 +1,16 @@
+
+sudo npm install -g @vue/cli
+vue create project
+npm install materialize-css@next
+
+main.js
+import "materialize-css/dist/js/materialize.min";
+
+App.vue
+@import "~materialize-css/dist/css/materialize.min.css";
+
+public/index.html
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
